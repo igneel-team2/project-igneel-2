@@ -1,5 +1,5 @@
 import React from 'react';
-import AppBar from '@material-ui/core/AppBar';
+// import AppBar from '@material-ui/core/AppBar';
 import Button from '@material-ui/core/Button';
 import Card from '@material-ui/core/Card';
 import CardActions from '@material-ui/core/CardActions';
@@ -8,7 +8,7 @@ import CardHeader from '@material-ui/core/CardHeader';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Grid from '@material-ui/core/Grid';
 import StarIcon from '@material-ui/icons/StarBorder';
-import Toolbar from '@material-ui/core/Toolbar';
+// import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import Link from '@material-ui/core/Link';
 import { makeStyles } from '@material-ui/core/styles';
@@ -18,11 +18,11 @@ import Box from '@material-ui/core/Box';
 function MadeWithLove() {
   return (
     <Typography variant="body2" color="textSecondary" align="center">
-      {'Built with love by the '}
-      <Link color="inherit" href="https://material-ui.com/">
-        Material-UI
+      
+      <Link color="inherit" href="https://github.com/igneel-team2">
+        Igneel-Team-2
       </Link>
-      {' team.'}
+      {' © Copyright 2019'}
     </Typography>
   );
 }
@@ -79,14 +79,14 @@ const tiers = [
   {
     title: 'Free',
     price: '0',
-    description: ['10 users included', '2 GB of storage', 'Help center access', 'Email support'],
+    description: ['Sending 2 question in a Day', '2 GB of storage', 'Help center access', 'Email support'],
     buttonText: 'Sign up for free',
     buttonVariant: 'outlined',
   },
   {
     title: 'Pro',
     subheader: 'Most popular',
-    price: '15',
+    price: '15.000',
     description: [
       '20 users included',
       '10 GB of storage',
@@ -98,7 +98,7 @@ const tiers = [
   },
   {
     title: 'Enterprise',
-    price: '30',
+    price: '30.000',
     description: [
       '50 users included',
       '30 GB of storage',
@@ -134,7 +134,7 @@ export default function Pricing() {
   return (
     <React.Fragment>
       <CssBaseline />
-      <AppBar position="static" color="default" elevation={0} className={classes.appBar}>
+      {/* <AppBar position="static" color="default" elevation={0} className={classes.appBar}>
         <Toolbar className={classes.toolbar}>
           <Typography variant="h6" color="inherit" noWrap className={classes.toolbarTitle}>
             Company name
@@ -154,15 +154,14 @@ export default function Pricing() {
             Login
           </Button>
         </Toolbar>
-      </AppBar>
+      </AppBar> */}
       {/* Hero unit */}
       <Container maxWidth="sm" component="main" className={classes.heroContent}>
         <Typography component="h1" variant="h2" align="center" color="textPrimary" gutterBottom>
-          Pricing
+          Join Membership!!
         </Typography>
         <Typography variant="h5" align="center" color="textSecondary" component="p">
-          Quickly build an effective pricing table for your potential customers with this layout.
-          It&apos;s built with default Material-UI components with little customization.
+          Become a member and enjoy benefits including rewards!
         </Typography>
       </Container>
       {/* End hero unit */}

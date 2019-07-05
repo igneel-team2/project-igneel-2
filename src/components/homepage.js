@@ -11,20 +11,20 @@ class Homepage extends React.Component{
       <header className="App-header">
         {/* <img src={logo} className="App-logo" alt="logo" /> */}
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          INI ADALAH HALAMAN QNA
         </p>
         <button>
           {/* <Link to='./components/membership.js'>Membership</Link> */}
          </button>
           {/* <Membership/> */}
-        <a
+        {/* <a
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
           Learn React
-        </a>
+        </a> */}
       </header>
     </div>
 </div>
