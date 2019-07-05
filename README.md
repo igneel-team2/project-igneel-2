@@ -1,3 +1,12 @@
+## Project Igneel 2
+
+This is a simple project where users can post their questions and have their questions answered by 
+other users.
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
